@@ -1,8 +1,10 @@
 > # Locomotion biohybrid machines
 
-This implementation utilises Neuroevolution of Augmenting Topologies (NEAT) and Hypercube-based Neuroevolution of Augmenting Topologies (HyperNEAT) to design morphologies of biohybird machines focused on locomotion tasks. In order to represent and evaluate the morphologies generated, a physics engine is used: Voxelyze, which can be found in the following GitHub repository: 
+This implementation utilises Neuroevolution of Augmenting Topologies (NEAT) and Hypercube-based Neuroevolution of Augmenting Topologies (HyperNEAT) to design morphologies of biohybird machines (BHMs) focused on locomotion tasks. In order to represent and evaluate the morphologies generated, a physics engine is used: Voxelyze, which can be found in the following GitHub repository: 
 
 https://github.com/skriegman/reconfigurable_organisms.
+
+Furthermore, the source code contained in this repository includes the implementation of NEAT and HyperNEAT, which are focused on replicating the behaviour of five mathematical functions. 
 
 > **Architecture**
 
@@ -10,14 +12,16 @@ Since the evolutionary process implies a simulation task, the runtime takes sign
 
 This software was written in Python 3.11 on the client side and Python 3.10 on the server side.
 
-> **Repository structure**
+**`Note`**: The client-server architecture previously described has not been implemented for the code related to the mathematical functions. 
+
+> **Repository Structure**
 
 The source code of this repository is split into two:
 
-* Client-side
-* Server-side
+* _Test functions_: Code related to replicate the behaviour of five mathematical functions.
+* _Locomotion_: Code related to find optimal morphologies for BHMs.
   
-Each piece of code is in a folder called "client" and "server," respectively, and contains its specific package requirements. 
+Each piece of code is in a folder called "test_functions" and "locomotion," respectively, and contains its specific package requirements. 
 
 > **Important Notice**
 
