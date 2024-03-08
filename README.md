@@ -4,7 +4,7 @@ This implementation utilises Neuroevolution of Augmenting Topologies (NEAT) and 
 
 https://github.com/skriegman/reconfigurable_organisms.
 
-Furthermore, the source code contained in this repository includes the implementation of NEAT and HyperNEAT, which are focused on replicating the behaviour of five mathematical functions. 
+Furthermore, the source code contained in this repository includes the implementation of NEAT and HyperNEAT, which are focused on replicating the behaviour of five mathematical functions: Ackeley function, Bukin function No. 6, Gramacy & Lee function, Levy function No. 13, and Rastringin function.
 
 > **Architecture**
 
