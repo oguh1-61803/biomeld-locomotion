@@ -10,9 +10,9 @@ Furthermore, the source code contained in this repository includes the implement
 
 Since the evolutionary process implies a simulation task, the runtime takes significant time. This software has been designed to reduce the time spent finding suitable morphologies. It uses concurrency and was designed under a client-server architecture. Generally, the genetic algorithm (GA) is executed on the client side, whereas the fitness function is executed on the server side.
 
-This software was written in Python 3.11 on the client side and Python 3.10 on the server side.
+This software was written in Python 3.11 on the client side (and the mathematical functions code) and Python 3.10 on the server side.
 
-**`Note`**: The client-server architecture previously described has not been implemented for the code related to the mathematical functions. 
+**`Note`**: The client-server architecture previously described has not been implemented for the code related to the mathematical functions.
 
 > **Repository Structure**
 
@@ -21,7 +21,7 @@ The source code of this repository is split into two:
 * _Test functions_: Code related to replicate the behaviour of five mathematical functions.
 * _Locomotion_: Code related to find optimal morphologies for BHMs.
   
-Each piece of code is in a folder called "test_functions" and "locomotion," respectively. 
+Each piece of code is in a folder called "test_functions" and "locomotion", respectively.
 
 > **Important Notice**
 
