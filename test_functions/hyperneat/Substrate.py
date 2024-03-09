@@ -48,7 +48,7 @@ class Substrate:
 
     # This function returns the topology of the substrate. In other words, it returns the data related to how the
     # neurons are connected and the weight values associated. The bias of neurons is also included.
-    def get_neurons_evals(self, is_local=True):
+    def get_neurons_evals(self):
 
         neurons_evals = []
 
