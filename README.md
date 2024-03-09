@@ -21,7 +21,7 @@ The source code of this repository is split into two:
 * _Test functions_: Code related to replicate the behaviour of five mathematical functions.
 * _Locomotion_: Code related to find optimal morphologies for BHMs.
   
-Each piece of code is in a folder called "test_functions" and "locomotion", respectively.
+Each piece of code is in a folder called "test_functions" and "locomotion", respectively. The packages used are listed in the file called "requirements.md".
 
 > **Important Notice**
 
