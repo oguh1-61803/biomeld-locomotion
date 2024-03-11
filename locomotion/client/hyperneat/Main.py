@@ -46,7 +46,7 @@ if __name__ == '__main__':
         # This number should be the same as the number of Voxelyze instances deployed in the server side.
         "simulator_instances": 18,
         "initial_port": 8081,
-        "target_ip_address": "http://192.168.0.89:"
+        "target_ip_address": "http://192.168.0.89:"  # This is the server's ip.
     }
 
     for exp_id in range(0, 1):
