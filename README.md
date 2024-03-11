@@ -25,4 +25,4 @@ Each piece of code is in a folder called "test_functions" and "locomotion", resp
 
 > **Important Notice**
 
-The code provided in this repository was used as part of an academic research documented in --coming soon--. 
+The code provided in this repository was used as part of an academic research documented in _coming soon_. 
