@@ -1,5 +1,5 @@
 # All necessary libraries and imports from other files.
-from src.test_functions.TestFunctionBank import TestFunctionBank
+from test_functions.TestFunctionBank import TestFunctionBank
 import math
 import neat
 
