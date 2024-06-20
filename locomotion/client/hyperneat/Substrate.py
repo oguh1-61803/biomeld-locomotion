@@ -83,7 +83,7 @@ class Substrate:
 
                     link = neuron.links.get(k)
 
-                    if link[1] < self.NO_CONNECTION_RANGE[0] or link[1] > self.NO_CONNECTION_RANGE[1]:
+                    if self.NO_CONNECTION_RANGE[1] >= link[1] >= self.NO_CONNECTION_RANGE[0]:
 
                         continue
 
@@ -144,7 +144,7 @@ class Substrate:
 
                 link = output_neuron.links.get(k)
 
-                if link[1] < self.NO_CONNECTION_RANGE[0] or link[1] > self.NO_CONNECTION_RANGE[1]:
+                if self.NO_CONNECTION_RANGE[1] >= link[1] >= self.NO_CONNECTION_RANGE[0]:
 
                     continue
 
