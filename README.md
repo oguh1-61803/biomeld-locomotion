@@ -25,4 +25,10 @@ Each piece of code is in a folder called "test_functions" and "locomotion", resp
 
 > **Important Notice**
 
-The code provided in this repository was used as part of an academic research documented in ..._coming soon_. 
+The code provided in this repository was used as part of an academic research documented in:
+
+*
+
+* 
+
+Moreover, this project has received funding from the EuropeanUnion’s Horizon Europe Research and Innovation programme under grant agreement No. 101070328.UWE researchers were funded by the UK Researchand Innovation grant No. 10044516.
