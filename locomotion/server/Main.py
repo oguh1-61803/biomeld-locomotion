@@ -18,7 +18,7 @@ def build_evaluator(evaluator_id):
 # Furthermore, each Voxelyze instance is managed by a process control system. The recommended software to manage the
 # instances is Supervisor, which is available for Linux-based operative systems and Windows.
 # IMPORTANT: The number of instances deployed should be the same number as the value set in the variable called
-# "simulator_instances" in the main files of the client-side code.
+# "simulator_instances" in the main file of the client-side code.
 if __name__ == "__main__":
 
     evaluator = build_evaluator(sys.argv[1])
