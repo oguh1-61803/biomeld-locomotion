@@ -3,7 +3,6 @@
 The code related to the test function domain was written in **Python 3.11**.
 
 > Libraries
-* scipy == 1.11.4 
 * neat-python-2023 == 0.93
 * ConfigUpdater == 3.2
   
@@ -14,9 +13,7 @@ The code related to the test function domain was written in **Python 3.11**.
 The code related to the client side was written in **Python 3.11**.
 
 > Libraries
-* scipy == 1.11.4
 * requests == 2.31.0
-* numpy == 1.26.2
 * neat-python-2023 == 0.93
 * ConfigUpdater == 3.2
 
@@ -28,8 +25,9 @@ The code related to the server side was written in **Python 3.10**.
 * tornado == 6.3.3 
 * lxml == 4.9.3
 
-> Important
+> Other important considerations
 
-* The executable called "voxelyze" in the path _locomotion/server/biomeld/voxelyze_ was compiled for an **ARM-based processor**, and it only works in Linux-based operative systems. If your server has an x86-based or amd64-based processor and it has a different operative systmem, you need to compile your own executable using the code contained in this repository: https://github.com/skriegman/reconfigurable_organisms.
+* The executable called "voxelyze" in the path _locomotion/server/biomeld/voxelyze_ was compiled for an **ARM-based processor**, and it only works in Linux-based operative systems. If your server has an x86-based or amd64-based processor and it has a different operative systmem, you need to compile your own executable using the code contained in this repository:
+   https://github.com/skriegman/reconfigurable_organisms.
+  
 * Lines 17-21 of the "Main.py" file, provide a suggestion regarding the server deployment.
-
