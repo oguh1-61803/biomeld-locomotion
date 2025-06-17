@@ -13,6 +13,7 @@ The code related to the test function domain was written in **Python 3.11**.
 The code related to the client side was written in **Python 3.11**.
 
 > Libraries
+* scipy == 1.13.0
 * requests == 2.31.0
 * neat-python-2023 == 0.93
 * ConfigUpdater == 3.2
