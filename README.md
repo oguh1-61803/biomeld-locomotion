@@ -31,4 +31,4 @@ The code provided in this repository was used as part of an academic research do
 
 * 
 
-Moreover, this project has received funding from the EuropeanUnion’s Horizon Europe Research and Innovation programme under grant agreement No. 101070328.UWE researchers were funded by the UK Researchand Innovation grant No. 10044516.
+Moreover, this project has received funding from the European Union’s Horizon Europe Research and Innovation programme under grant agreement No. 101070328.UWE researchers were funded by the UK Researchand Innovation grant No. 10044516.
