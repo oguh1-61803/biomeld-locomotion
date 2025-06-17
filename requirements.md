@@ -30,4 +30,4 @@ The code related to the server side was written in **Python 3.10**.
 * The executable called "voxelyze" in the path _locomotion/server/biomeld/voxelyze_ was compiled for an **ARM-based processor**, and it only works in Linux-based operative systems. If your server has an x86-based or amd64-based processor and it has a different operative systmem, you need to compile your own executable using the code contained in this repository:
    https://github.com/skriegman/reconfigurable_organisms.
   
-* Lines 17-21 of the "Main.py" file, provide a suggestion regarding the server deployment.
+* Lines 17-21 of the "Main.py" file of the server code, provide a suggestion regarding the server deployment.
