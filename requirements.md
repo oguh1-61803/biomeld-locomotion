@@ -25,7 +25,7 @@ The code related to the server side was written in **Python 3.10**.
 * tornado == 6.3.3 
 * lxml == 4.9.3
 
-> Other important considerations
+# Other important considerations
 
 * The executable called "voxelyze" in the path _locomotion/server/biomeld/voxelyze_ was compiled for an **ARM-based processor**, and it only works in Linux-based operative systems. If your server has an x86-based or amd64-based processor and it has a different operative systmem, you need to compile your own executable using the code contained in this repository:
    https://github.com/skriegman/reconfigurable_organisms.
